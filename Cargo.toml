@@ -1,0 +1,19 @@
+[package]
+name = "await-group"
+version = "0.1.0"
+edition = "2021"
+authors = ["isjieliu@163.com"]
+description = "Golang like WaitGroup implementation"
+keywords = ["waitgroup", "async"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/Millione/await-group"
+documentation = "https://docs.rs/await-group/"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+atomic-waker = "1"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["test-util", "rt", "rt-multi-thread", "macros"] }
