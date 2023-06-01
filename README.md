@@ -18,7 +18,7 @@ Golang like [WaitGroup](https://pkg.go.dev/sync#WaitGroup) implementation.
 Add this to your `Cargo.toml`:
 
 ```toml
-[build-dependencies]
+[dependencies]
 await-group = "0.1"
 ```
 
